@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#allpage {
+    width: 70%;
+    margin: 0 auto;
+}
+
+header {
+    width: 100%;
+}
+
+.logo-img {
+    width: 99.74%;
+    height: 250px;
+    border-radius: 5px;
+    border: 2px solid gray;
+
+}
+
+.menu {
+    width: 100%;
+    overflow: auto;
+    background-color: darkred;
+    border-radius: 5px;
+    list-style-type: none;
+}
+
+.menu li {
+    width: 7em;
+    line-height: 2.5em;
+    float: left;
+
+}
+
+.menu li a {
+    display: block;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.menu li a:link {
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    background-color: black;
+    color: yellow;
+    border-radius: 5px;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Work02</title>
+    <meta name="author" content="EnasVen">
+    <meta name="datetime" content="2022/05/10">
+    <link rel="stylesheet" href="./page00style.css">
+    <link rel="stylesheet" href="./page02style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@700&display=swap" rel="stylesheet">
+    <script src="./page02.js"></script>
+</head>
+
+<body>
+    <div id="allpage">
+        <header>
+            <img class="logo-img" src="./img01.png" title="logo" alt="logo">
+            <nav>
+                <ul class="menu">
+                    <li><a href="./page01.html" title="第一題:九九乘法">Homework-01</a></li>
+                    <li><a href="./page02.html" title="第二題:表單檢測">Homework-02</a></li>
+                    <li><a href="./page03.html" title="第三題:星等評分">Homework-03</a></li>
+                    <li><a href="./page04.html" title="第四題:廣告輪播">Homework-04</a></li>
+                    <li><a href="./page05.html" title="第五題:日期選擇">Homework-05</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <div class="div01">
+        <article class="article01">
+            <form>
+                <fieldset>
+                    <legend>Form Check</legend>
+                    <div class="div02">
+                        <label for="idName">姓名 : </label>
+                        <input type="text" id="idName" name="account" value="王建民" size="20">
+                        <span id="idN"></span><br />
+                        <!-- <span id="A" class="n">(1.不可空白 2.至少兩個字以上 3.必須全部為中文字)</span> -->
+                        <span id="A" class="n"></span>
+                    </div>
+                    <!-- <hr> -->
+                    <div class="div02">
+                        <label>密碼 : </label>
+                        <input autofocus placeholder="請輸入密碼" id="idPwd" name="pwd" maxlength="8" size="20"
+                            minlength="6">
+                        <span id="idP"></span><br />
+                        <!-- <span id="B" class="n">(1.不可空白 2.至少6個字且必須包含英數字、特殊字元[!@#$%^&*]])</span> -->
+                        <span id="B" class="n"></span>
+                    </div>
+                    <!-- <hr> -->
+                    <div class="div02">
+                        <label for="idDate">日期 : </label>
+                        <input autofocus placeholder="ex:2000/02/29 17:31:01" id="idDate" name="dat" size="20">
+                        <span id="idD"></span><br />
+                        <!-- <span id="C" class="n">格式: 西元年/月/日 (yyyy/mm/dd)</span> -->
+                        <span id="C" class="n"></span>
+                    </div>
+                    <div class="sub">
+                        <input type="submit" value="送出">
+                        <input type="reset" value="清除">
+                    </div>
+                </fieldset>
+            </form>
+        </article>
+    </div>
+
+</body>
+
+</html>

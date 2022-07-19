@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.s {
+    filter: grayscale(1);
+    /*沒有任何色彩的黑白影像*/
+}
+
+.n {
+    filter: grayscale(0);
+    /*顏色不變*/
+}
+
+.div01 {
+    margin: 0 auto;
+    padding: 0;
+    width: 60%;
+    /* overflow: auto; */
+}
+
+.article01 {
+    margin: 10px auto;
+    width: 100%;
+    float: left;
+    border: 5px dotted black;
+    border-radius: 15px;
+    text-align: center;
+}
