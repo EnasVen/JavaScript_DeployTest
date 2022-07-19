@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
     for (let i = 0; i <= 4; i++) {
-        document.getElementById(i).src = "./star.png";
+        document.getElementById(i).src = "star.png";
     }
 
     for (let i = 0; i <= 4; i++) {
